@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{A plugin to improve the user experience for users of Capistrano and Harrow}
   spec.description   = %q{Hooks to allow people experiencing problems with Capistrano to register with a service to get help and have a smoother workflow.}
   spec.homepage      = "https://github.com/harrowio/capistrano-harrow"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
